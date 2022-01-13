@@ -1,0 +1,27 @@
+<component name="ArtifactManager">
+  <artifact type="javafx" name="DCDatabase">
+    <output-path>$PROJECT_DIR$/out/artifacts/DCDatabase</output-path>
+    <properties id="javafx-properties">
+      <options>
+        <option name="appClass" value="cardSearchRunner" />
+        <option name="description" value="" />
+        <option name="htmlPlaceholderId" value="" />
+        <option name="icons">
+          <JavaFxApplicationIcons>
+            <option name="windowsIcon" value="$PROJECT_DIR$/src/resources/Images/UIAssets/favicon(2).ico" />
+          </JavaFxApplicationIcons>
+        </option>
+        <option name="nativeBundle" value="all" />
+        <option name="title" value="" />
+        <option name="vendor" value="" />
+        <option name="version" value="1.1.0-rc.1" />
+      </options>
+    </properties>
+    <root id="root">
+      <element id="archive" name="DCDatabase.jar">
+        <element id="module-output" name="DCDatabase" />
+      </element>
+      <element id="library" level="project" name="mysql-connector-java-8.0.22" />
+    </root>
+  </artifact>
+</component>
