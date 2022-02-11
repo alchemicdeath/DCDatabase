@@ -17,7 +17,7 @@ public class cardSearchControllerSql
 {
     // -------------------------------- CONSTANTS -------------------------- //
     // ------ SQL ------//
-    static final String DB_URL = "jdbc:mysql://192.168.0.215:3306/DigimonCardDatabase";
+    static final String DB_URL = "jdbc:mysql://localHost/DigimonCardDatabase";
     static final String USER = "jordan";
     static final String PASS = "AQuakiss12!";
     static final String QUERY = "SELECT cardNumber, rarity, cardType, color, " +
